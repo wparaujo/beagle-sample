@@ -1,0 +1,6 @@
+framework module Pods_beagle_sampleTests {
+  umbrella header "Pods-beagle-sampleTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

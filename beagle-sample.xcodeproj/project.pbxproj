@@ -1,0 +1,757 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		024682862593C438002089C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024682852593C438002089C8 /* AppDelegate.swift */; };
+		024682882593C438002089C8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024682872593C438002089C8 /* SceneDelegate.swift */; };
+		0246828A2593C438002089C8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024682892593C438002089C8 /* ViewController.swift */; };
+		0246828D2593C438002089C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0246828B2593C438002089C8 /* Main.storyboard */; };
+		0246828F2593C43D002089C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0246828E2593C43D002089C8 /* Assets.xcassets */; };
+		024682922593C43D002089C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 024682902593C43D002089C8 /* LaunchScreen.storyboard */; };
+		0246829D2593C43D002089C8 /* beagle_sampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0246829C2593C43D002089C8 /* beagle_sampleTests.swift */; };
+		024682A82593C43D002089C8 /* beagle_sampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024682A72593C43D002089C8 /* beagle_sampleUITests.swift */; };
+		024682B62593D3F5002089C8 /* MyBeagleScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024682B52593D3F5002089C8 /* MyBeagleScreen.swift */; };
+		024682B82593DB33002089C8 /* BeagleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024682B72593DB33002089C8 /* BeagleViewController.swift */; };
+		23F1877A3610A54A9E21F55F /* Pods_beagle_sampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DA7516A3DCE8EE11CC3BB0B /* Pods_beagle_sampleTests.framework */; };
+		3A5AB12CE9DAD9573C26C489 /* Pods_beagle_sample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 913FBFD7A2D37CFDBCE5EC7D /* Pods_beagle_sample.framework */; };
+		D4375EE0C36EA943B0D532ED /* Pods_beagle_sample_beagle_sampleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 949629CF5D55C54301BCB827 /* Pods_beagle_sample_beagle_sampleUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		024682992593C43D002089C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0246827A2593C438002089C8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 024682812593C438002089C8;
+			remoteInfo = "beagle-sample";
+		};
+		024682A42593C43D002089C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0246827A2593C438002089C8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 024682812593C438002089C8;
+			remoteInfo = "beagle-sample";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		024682822593C438002089C8 /* beagle-sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "beagle-sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		024682852593C438002089C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		024682872593C438002089C8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		024682892593C438002089C8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0246828C2593C438002089C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0246828E2593C43D002089C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		024682912593C43D002089C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		024682932593C43D002089C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		024682982593C43D002089C8 /* beagle-sampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "beagle-sampleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0246829C2593C43D002089C8 /* beagle_sampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = beagle_sampleTests.swift; sourceTree = "<group>"; };
+		0246829E2593C43D002089C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		024682A32593C43D002089C8 /* beagle-sampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "beagle-sampleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		024682A72593C43D002089C8 /* beagle_sampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = beagle_sampleUITests.swift; sourceTree = "<group>"; };
+		024682A92593C43D002089C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		024682B52593D3F5002089C8 /* MyBeagleScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyBeagleScreen.swift; sourceTree = "<group>"; };
+		024682B72593DB33002089C8 /* BeagleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeagleViewController.swift; sourceTree = "<group>"; };
+		414CA411C29E7584DF407852 /* Pods-beagle-sample-beagle-sampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-beagle-sample-beagle-sampleUITests.release.xcconfig"; path = "Target Support Files/Pods-beagle-sample-beagle-sampleUITests/Pods-beagle-sample-beagle-sampleUITests.release.xcconfig"; sourceTree = "<group>"; };
+		528876A7DC8A179AA69AA2F6 /* Pods-beagle-sample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-beagle-sample.release.xcconfig"; path = "Target Support Files/Pods-beagle-sample/Pods-beagle-sample.release.xcconfig"; sourceTree = "<group>"; };
+		5DA7516A3DCE8EE11CC3BB0B /* Pods_beagle_sampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_beagle_sampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		738372553133CD7398EA3C77 /* Pods-beagle-sample-beagle-sampleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-beagle-sample-beagle-sampleUITests.debug.xcconfig"; path = "Target Support Files/Pods-beagle-sample-beagle-sampleUITests/Pods-beagle-sample-beagle-sampleUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		83709EDFAEA496CAC2BAC0FA /* Pods-beagle-sampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-beagle-sampleTests.release.xcconfig"; path = "Target Support Files/Pods-beagle-sampleTests/Pods-beagle-sampleTests.release.xcconfig"; sourceTree = "<group>"; };
+		913FBFD7A2D37CFDBCE5EC7D /* Pods_beagle_sample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_beagle_sample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		949629CF5D55C54301BCB827 /* Pods_beagle_sample_beagle_sampleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_beagle_sample_beagle_sampleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF9A25B70E5D854A98F0CCBA /* Pods-beagle-sample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-beagle-sample.debug.xcconfig"; path = "Target Support Files/Pods-beagle-sample/Pods-beagle-sample.debug.xcconfig"; sourceTree = "<group>"; };
+		F0F5E132D418D0D88F906DD5 /* Pods-beagle-sampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-beagle-sampleTests.debug.xcconfig"; path = "Target Support Files/Pods-beagle-sampleTests/Pods-beagle-sampleTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0246827F2593C438002089C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A5AB12CE9DAD9573C26C489 /* Pods_beagle_sample.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		024682952593C43D002089C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23F1877A3610A54A9E21F55F /* Pods_beagle_sampleTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		024682A02593C43D002089C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4375EE0C36EA943B0D532ED /* Pods_beagle_sample_beagle_sampleUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		024682792593C438002089C8 = {
+			isa = PBXGroup;
+			children = (
+				024682842593C438002089C8 /* beagle-sample */,
+				0246829B2593C43D002089C8 /* beagle-sampleTests */,
+				024682A62593C43D002089C8 /* beagle-sampleUITests */,
+				024682832593C438002089C8 /* Products */,
+				21FBA2B81ED3362EF39DE7FC /* Pods */,
+				06C06769E4B607FCD801462B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		024682832593C438002089C8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				024682822593C438002089C8 /* beagle-sample.app */,
+				024682982593C43D002089C8 /* beagle-sampleTests.xctest */,
+				024682A32593C43D002089C8 /* beagle-sampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		024682842593C438002089C8 /* beagle-sample */ = {
+			isa = PBXGroup;
+			children = (
+				024682852593C438002089C8 /* AppDelegate.swift */,
+				024682B72593DB33002089C8 /* BeagleViewController.swift */,
+				024682872593C438002089C8 /* SceneDelegate.swift */,
+				024682892593C438002089C8 /* ViewController.swift */,
+				0246828B2593C438002089C8 /* Main.storyboard */,
+				0246828E2593C43D002089C8 /* Assets.xcassets */,
+				024682902593C43D002089C8 /* LaunchScreen.storyboard */,
+				024682932593C43D002089C8 /* Info.plist */,
+				024682B52593D3F5002089C8 /* MyBeagleScreen.swift */,
+			);
+			path = "beagle-sample";
+			sourceTree = "<group>";
+		};
+		0246829B2593C43D002089C8 /* beagle-sampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				0246829C2593C43D002089C8 /* beagle_sampleTests.swift */,
+				0246829E2593C43D002089C8 /* Info.plist */,
+			);
+			path = "beagle-sampleTests";
+			sourceTree = "<group>";
+		};
+		024682A62593C43D002089C8 /* beagle-sampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				024682A72593C43D002089C8 /* beagle_sampleUITests.swift */,
+				024682A92593C43D002089C8 /* Info.plist */,
+			);
+			path = "beagle-sampleUITests";
+			sourceTree = "<group>";
+		};
+		06C06769E4B607FCD801462B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				913FBFD7A2D37CFDBCE5EC7D /* Pods_beagle_sample.framework */,
+				949629CF5D55C54301BCB827 /* Pods_beagle_sample_beagle_sampleUITests.framework */,
+				5DA7516A3DCE8EE11CC3BB0B /* Pods_beagle_sampleTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		21FBA2B81ED3362EF39DE7FC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BF9A25B70E5D854A98F0CCBA /* Pods-beagle-sample.debug.xcconfig */,
+				528876A7DC8A179AA69AA2F6 /* Pods-beagle-sample.release.xcconfig */,
+				738372553133CD7398EA3C77 /* Pods-beagle-sample-beagle-sampleUITests.debug.xcconfig */,
+				414CA411C29E7584DF407852 /* Pods-beagle-sample-beagle-sampleUITests.release.xcconfig */,
+				F0F5E132D418D0D88F906DD5 /* Pods-beagle-sampleTests.debug.xcconfig */,
+				83709EDFAEA496CAC2BAC0FA /* Pods-beagle-sampleTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		024682812593C438002089C8 /* beagle-sample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 024682AC2593C43D002089C8 /* Build configuration list for PBXNativeTarget "beagle-sample" */;
+			buildPhases = (
+				CA05AAEFB637016600AD8F65 /* [CP] Check Pods Manifest.lock */,
+				0246827E2593C438002089C8 /* Sources */,
+				0246827F2593C438002089C8 /* Frameworks */,
+				024682802593C438002089C8 /* Resources */,
+				2F404ABF1FC36061D544690F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "beagle-sample";
+			productName = "beagle-sample";
+			productReference = 024682822593C438002089C8 /* beagle-sample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		024682972593C43D002089C8 /* beagle-sampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 024682AF2593C43D002089C8 /* Build configuration list for PBXNativeTarget "beagle-sampleTests" */;
+			buildPhases = (
+				E76F9231248551E6B873816B /* [CP] Check Pods Manifest.lock */,
+				024682942593C43D002089C8 /* Sources */,
+				024682952593C43D002089C8 /* Frameworks */,
+				024682962593C43D002089C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0246829A2593C43D002089C8 /* PBXTargetDependency */,
+			);
+			name = "beagle-sampleTests";
+			productName = "beagle-sampleTests";
+			productReference = 024682982593C43D002089C8 /* beagle-sampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		024682A22593C43D002089C8 /* beagle-sampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 024682B22593C43D002089C8 /* Build configuration list for PBXNativeTarget "beagle-sampleUITests" */;
+			buildPhases = (
+				C0DE5E9DE70E3A4E9996395D /* [CP] Check Pods Manifest.lock */,
+				0246829F2593C43D002089C8 /* Sources */,
+				024682A02593C43D002089C8 /* Frameworks */,
+				024682A12593C43D002089C8 /* Resources */,
+				B91AB2824FA1B5189D082989 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				024682A52593C43D002089C8 /* PBXTargetDependency */,
+			);
+			name = "beagle-sampleUITests";
+			productName = "beagle-sampleUITests";
+			productReference = 024682A32593C43D002089C8 /* beagle-sampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0246827A2593C438002089C8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "Wesley Araujo";
+				TargetAttributes = {
+					024682812593C438002089C8 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					024682972593C43D002089C8 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 024682812593C438002089C8;
+					};
+					024682A22593C43D002089C8 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 024682812593C438002089C8;
+					};
+				};
+			};
+			buildConfigurationList = 0246827D2593C438002089C8 /* Build configuration list for PBXProject "beagle-sample" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 024682792593C438002089C8;
+			productRefGroup = 024682832593C438002089C8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				024682812593C438002089C8 /* beagle-sample */,
+				024682972593C43D002089C8 /* beagle-sampleTests */,
+				024682A22593C43D002089C8 /* beagle-sampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		024682802593C438002089C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				024682922593C43D002089C8 /* LaunchScreen.storyboard in Resources */,
+				0246828F2593C43D002089C8 /* Assets.xcassets in Resources */,
+				0246828D2593C438002089C8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		024682962593C43D002089C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		024682A12593C43D002089C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2F404ABF1FC36061D544690F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-beagle-sample/Pods-beagle-sample-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-beagle-sample/Pods-beagle-sample-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-beagle-sample/Pods-beagle-sample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B91AB2824FA1B5189D082989 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-beagle-sample-beagle-sampleUITests/Pods-beagle-sample-beagle-sampleUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-beagle-sample-beagle-sampleUITests/Pods-beagle-sample-beagle-sampleUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-beagle-sample-beagle-sampleUITests/Pods-beagle-sample-beagle-sampleUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C0DE5E9DE70E3A4E9996395D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-beagle-sample-beagle-sampleUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CA05AAEFB637016600AD8F65 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-beagle-sample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E76F9231248551E6B873816B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-beagle-sampleTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0246827E2593C438002089C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0246828A2593C438002089C8 /* ViewController.swift in Sources */,
+				024682B62593D3F5002089C8 /* MyBeagleScreen.swift in Sources */,
+				024682B82593DB33002089C8 /* BeagleViewController.swift in Sources */,
+				024682862593C438002089C8 /* AppDelegate.swift in Sources */,
+				024682882593C438002089C8 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		024682942593C43D002089C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0246829D2593C43D002089C8 /* beagle_sampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0246829F2593C43D002089C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				024682A82593C43D002089C8 /* beagle_sampleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0246829A2593C43D002089C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 024682812593C438002089C8 /* beagle-sample */;
+			targetProxy = 024682992593C43D002089C8 /* PBXContainerItemProxy */;
+		};
+		024682A52593C43D002089C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 024682812593C438002089C8 /* beagle-sample */;
+			targetProxy = 024682A42593C43D002089C8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0246828B2593C438002089C8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0246828C2593C438002089C8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		024682902593C43D002089C8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				024682912593C43D002089C8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		024682AA2593C43D002089C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		024682AB2593C43D002089C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		024682AD2593C43D002089C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF9A25B70E5D854A98F0CCBA /* Pods-beagle-sample.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 98G2VY7676;
+				INFOPLIST_FILE = "beagle-sample/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wesley.beagle-sample";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		024682AE2593C43D002089C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 528876A7DC8A179AA69AA2F6 /* Pods-beagle-sample.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 98G2VY7676;
+				INFOPLIST_FILE = "beagle-sample/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wesley.beagle-sample";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		024682B02593C43D002089C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0F5E132D418D0D88F906DD5 /* Pods-beagle-sampleTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 98G2VY7676;
+				INFOPLIST_FILE = "beagle-sampleTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wesley.beagle-sampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/beagle-sample.app/beagle-sample";
+			};
+			name = Debug;
+		};
+		024682B12593C43D002089C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83709EDFAEA496CAC2BAC0FA /* Pods-beagle-sampleTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 98G2VY7676;
+				INFOPLIST_FILE = "beagle-sampleTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wesley.beagle-sampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/beagle-sample.app/beagle-sample";
+			};
+			name = Release;
+		};
+		024682B32593C43D002089C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 738372553133CD7398EA3C77 /* Pods-beagle-sample-beagle-sampleUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 98G2VY7676;
+				INFOPLIST_FILE = "beagle-sampleUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wesley.beagle-sampleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "beagle-sample";
+			};
+			name = Debug;
+		};
+		024682B42593C43D002089C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 414CA411C29E7584DF407852 /* Pods-beagle-sample-beagle-sampleUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 98G2VY7676;
+				INFOPLIST_FILE = "beagle-sampleUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wesley.beagle-sampleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "beagle-sample";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0246827D2593C438002089C8 /* Build configuration list for PBXProject "beagle-sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				024682AA2593C43D002089C8 /* Debug */,
+				024682AB2593C43D002089C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		024682AC2593C43D002089C8 /* Build configuration list for PBXNativeTarget "beagle-sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				024682AD2593C43D002089C8 /* Debug */,
+				024682AE2593C43D002089C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		024682AF2593C43D002089C8 /* Build configuration list for PBXNativeTarget "beagle-sampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				024682B02593C43D002089C8 /* Debug */,
+				024682B12593C43D002089C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		024682B22593C43D002089C8 /* Build configuration list for PBXNativeTarget "beagle-sampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				024682B32593C43D002089C8 /* Debug */,
+				024682B42593C43D002089C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0246827A2593C438002089C8 /* Project object */;
+}
