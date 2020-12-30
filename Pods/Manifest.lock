@@ -1,15 +1,21 @@
 PODS:
+  - AnimationComponent (0.1.0):
+    - Beagle
+    - lottie-ios
+    - YogaKit
   - Beagle (1.5.0):
     - Beagle/Beagle (= 1.5.0)
   - Beagle/Beagle (1.5.0):
     - BeagleSchema (= 1.5.0)
     - YogaKit
   - BeagleSchema (1.5.0)
+  - lottie-ios (3.1.9)
   - Yoga (1.14.0)
   - YogaKit (1.18.1):
     - Yoga (~> 1.14)
 
 DEPENDENCIES:
+  - AnimationComponent (from `../AnimationComponent`)
   - Beagle
   - YogaKit (from `https://github.com/ZupIT/YogaKit`)
 
@@ -17,9 +23,12 @@ SPEC REPOS:
   trunk:
     - Beagle
     - BeagleSchema
+    - lottie-ios
     - Yoga
 
 EXTERNAL SOURCES:
+  AnimationComponent:
+    :path: "../AnimationComponent"
   YogaKit:
     :git: https://github.com/ZupIT/YogaKit
 
@@ -29,11 +38,13 @@ CHECKOUT OPTIONS:
     :git: https://github.com/ZupIT/YogaKit
 
 SPEC CHECKSUMS:
+  AnimationComponent: 38740da8f47acb1691a93545157261fb3a0b706b
   Beagle: 68b7583ec5ba63d8000f87afc32247d61019adbd
   BeagleSchema: cc5463afa843ac07caaddb875d82c97a7d8a0153
+  lottie-ios: 3a3758ef5a008e762faec9c9d50a39842f26d124
   Yoga: cff67a400f6b74dc38eb0bad4f156673d9aa980c
   YogaKit: 3a733275fd1639b96a304f6f5c11421478371e6b
 
-PODFILE CHECKSUM: 23a12182df953d6f8bac1db0a0580e6653fe97f5
+PODFILE CHECKSUM: ee497271fc8e5b4f0b3e909e81971e06b66a7884
 
 COCOAPODS: 1.10.0

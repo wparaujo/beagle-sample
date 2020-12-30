@@ -9,7 +9,8 @@ target 'beagle-sample' do
   
   pod 'Beagle'        
   pod 'YogaKit', :git => 'https://github.com/ZupIT/YogaKit'
-
+  pod 'AnimationComponent', :path => '../AnimationComponent'
+  
   target 'beagle-sampleTests' do
     inherit! :search_paths
     # Pods for testing

@@ -175,16 +175,20 @@ code_sign_if_enabled() {
 }
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_framework "${BUILT_PRODUCTS_DIR}/AnimationComponent/AnimationComponent.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Beagle/Beagle.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/BeagleSchema/BeagleSchema.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Yoga/yoga.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/YogaKit/YogaKit.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/lottie-ios/Lottie.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_framework "${BUILT_PRODUCTS_DIR}/AnimationComponent/AnimationComponent.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Beagle/Beagle.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/BeagleSchema/BeagleSchema.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Yoga/yoga.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/YogaKit/YogaKit.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/lottie-ios/Lottie.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
   wait
