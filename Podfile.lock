@@ -15,7 +15,7 @@ PODS:
     - Yoga (~> 1.14)
 
 DEPENDENCIES:
-  - AnimationComponent (from `../AnimationComponent`)
+  - AnimationComponent (from `https://github.com/murilxaraujo/AnimationComponent`)
   - Beagle
   - YogaKit (from `https://github.com/ZupIT/YogaKit`)
 
@@ -28,11 +28,14 @@ SPEC REPOS:
 
 EXTERNAL SOURCES:
   AnimationComponent:
-    :path: "../AnimationComponent"
+    :git: https://github.com/murilxaraujo/AnimationComponent
   YogaKit:
     :git: https://github.com/ZupIT/YogaKit
 
 CHECKOUT OPTIONS:
+  AnimationComponent:
+    :commit: 063c0efdecdaa7908780fd4e2e74e3fe4eb490d7
+    :git: https://github.com/murilxaraujo/AnimationComponent
   YogaKit:
     :commit: 939ed55b23a687b91a378acfd80ca9e47bf1c000
     :git: https://github.com/ZupIT/YogaKit
@@ -45,6 +48,6 @@ SPEC CHECKSUMS:
   Yoga: cff67a400f6b74dc38eb0bad4f156673d9aa980c
   YogaKit: 3a733275fd1639b96a304f6f5c11421478371e6b
 
-PODFILE CHECKSUM: ee497271fc8e5b4f0b3e909e81971e06b66a7884
+PODFILE CHECKSUM: 4f9b68e6f06515acc07cee254309fa75393bbcf3
 
 COCOAPODS: 1.10.0
